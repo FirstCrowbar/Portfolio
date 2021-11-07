@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Firstcrowbar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<menu>
+    <h2 id="hello">Привет!</h2>
+    <div id="btns" class="btns">
+        <a id="btnMain" class="title" >КРАТКО</a>
+        <a id="btnSkills" class="title">НАВЫКИ</a>
+        <a id="btnExp" class="title">ОПЫТ</a>
+        <a id="btnEducation" class="title">ОБРАЗОВАНИЕ</a>
+        <a id="btnPortfolio" class="title">ПОРТФОЛИО</a>
+        <a id="btnContacts" class="title">КОНТАКТЫ</a>
+    </div>
+</menu>
+<main id="main" class="container">
+    <div id="summary">
+        <h1>Меня зовут Павел Тыквенко.</h1>
+        <p>Я - начинающий разработчик из Екатеринбурга. <br>
+        В настоящее время нахожусь в поиске интересной работы и хорошей команды, дабы <br>
+        набраться практического опыта и вознестись в стратосферу, где обитают великие умы
+        </p>
+        <div id="tab">
+        <p><span class="span_title">ТЕЛЕФОН</span><span class="little">  +79505400165</span></p>
+        <p><span class="span_title">EMAIL  </span ><span class="little">  firstcrowbar@gmail.com</span></p>
+        <p><span class="span_title">ГОРОД</span><span class="little">  Екатеринбург</span></p>
+        <p><span class="span_title" id="soc">СОЦСЕТИ</span>
+            <a id="telegram" class="social" target="_blank" href="https://t.me/Pavel_Crowbar"><i class="fa fa-telegram" aria-hidden="true" ></i></a>
+            <a id="gmail" class="social" target="_blank" href="mailto:firstcrowbar@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a id="github" class="social" target="_blank" href="https://github.com/FirstCrowbar/"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a id="vk" class="social" target="_blank" href="https://vk.com/id179717309"><i class="fa fa-vk" aria-hidden="true" ></i></a></p>
+        </div>
+        <div id="hello_btns">
+            <button id="connect_btn" class="orange_btn">СВЯЗАТЬСЯ</button>
+            <button class="grey_btn"><a class="grey_btn" href="img/resume.pdf" download>СКАЧАТЬ .pdf</a></button>
+        </div>
+    </div>
+    <div id="photo"></div>
+</main>
+<div id="content">
+
+    <!-- НАВЫКИ -->
+    <div id="skills" class="container">
+        <div class="description">
+            <h1><i class="fa fa-magic" aria-hidden="true"></i></span>НАВЫКИ</h1>
+            <p>Инструментарий, что помогает творить</p>
+        </div>
+        <div class="sub_container">
+            <div id="skills_frontend" class="skills">
+                <h3>Web-разработка<br>
+                    <span class="little">HTML, CSS, Javascript, Webstorm</span> </h3>
+            </div>
+            <div id="skills_design" class="skills">
+                <h3>UI/UX дизайн<br>
+                    <span class="little">Adobe Photoshop, Adobe XD, Autodesk Sketchbook</span> </h3>
+            </div>
+            <div id="skills_soft" class="skills">
+                <h3>Доп. скилы<br>
+                    <span class="little">Adobe After Effects, Autodesk AutoCAD Civil 3D, <br>
+                    Autodesk 3ds max, Movavi Video Editor</span> </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- ОПЫТ -->
+    <div id="exp" class="container">
+        <div class="description">
+            <h1><i class="fa fa-road" aria-hidden="true"></i>ОПЫТ</h1>
+            <p>Пройденный путь</p>
+        </div>
+        <div class="sub_container">
+            <div id="master">
+                <h3>Мастер общестроительных работ<br>
+                    <span class="little">2011 - 2014г.</span>
+                </h3>
+                    <ul>
+                        <li>руководящие функции на объектах строительства</li>
+                        <li>ведение исполнительной документации</li>
+                        <li>деловая переписка заказчиком и субподрядными организациями</li>
+                        <li>согласование проектных изменений</li>
+                    </ul>
+            </div>
+            <div id="surveyor">
+                <h3>Инженер-геодезист<br>
+                    <span class="little">2014 - 2021г.</span>
+                </h3>
+                <ul>
+                    <li>сопровождение объектов строительства</li>
+                    <li>контроль точности производимых работ</li>
+                    <li>оформление исполнительных схем</li>
+                    <li>вынос в натуру осей зданий и коммуникаций</li>
+                    <li>мониторинг деформаций</li>
+                    <li>опыт работы с геодезическим оборудованием:<br>
+                    Nikon, Leica, Sokkia, Javad, Spectra Precision</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ОБРАЗОВАНИЕ -->
+    <div id="education" class="container">
+        <div class="description">
+            <h1><i class="fa fa-book" aria-hidden="true"></i></i>ОБРАЗОВАНИЕ</h1>
+            <p>Знания, подчерпнутые из различных источников</p>
+        </div>
+        <div class="sub_container">
+            <div id="college">
+                <h3>Строительство и эксплуатация а/д и аэродромов <span class="little">ЕАДК</span> <br>
+                    <span class="little">2006 - 2010г.</span>
+                </h3>
+            </div>
+            <div id="book">
+                <h3>HTML5, CSS3 и Javascript. Исчерпывающее руководство <span class="little">книга</span> <br>
+                    <span class="little">ноябрь, 2020 - апрель, 2021</span></h3>
+                <p>Самоучитель по вёрстке под авторством Джениффер Роббинс</p>
+            </div>
+            <div id="udemy">
+                <h3>Полный курс по Javascript + React <span class="little">Udemy</span><br>
+                    <span class="little">май, 2021 - октябрь, 2021</span></h3>
+                <p>На курсе были пройдены:</p>
+                <ul>
+                    <li>основы программирования и алгоритмов</li>
+                    <li>основы объектно-ориентированного программирования</li>
+                    <li>основные концепции и принципы Javascript</li>
+                    <li>AJAX, JSON</li>
+                    <li>работа с Git и GitHub</li>
+                    <li class="greyText">работа с npm, Babel, Browserify, Webpack</li>
+                    <li class="greyText">React, Angular, Vue, Jquery</li>
+                    <li class="greyText">различные архитектурные подходы web-приложений</li>
+                    <li class="greyText">работа с Redux и его интеграция</li>
+                </ul>
+                <p>Автор курса - Иван Петриченко</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ПОРТФОЛИО -->
+    <div id="portfolio" class="container">
+        <div class="description">
+        <h1><i class="fa fa-cog" aria-hidden="true"></i>ПОРТФОЛИО</h1>
+            <p>Различные наработки (будет пополняться со временем)</p>
+        </div>
+        <div class="sub_container">
+            <div class="app_container">
+                <a href="Institute/institute.html"><img src="img/institute.png" class="portfolio_btn"><p>Таблица студентов</p></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- КОНТАКТЫ -->
+    <div id="contacts" class="container">
+        <div class="description">
+            <h1><i class="fa fa-paper-plane" aria-hidden="true"></i>КОНТАКТЫ</h1>
+            <p>Если у вас есть деловое предложение - <br>
+            буду рад ответить в ближайшее время!</p>
+        </div>
+        <div id="form">
+            <form id="form_container">
+                <div class="input_little_container">
+                    <input id="name" type="text" class="input_little" name="name" placeholder="Имя">
+                    <input id="email" type="text" class="input_little" name="email" placeholder="E-mail">
+                </div>
+                <textarea id="message" maxlength="1500" class="input_big" name="message" placeholder="Сообщение"></textarea>
+            </form>
+            <button id="submit_btn" class="orange_btn">ОТПРАВИТЬ</button>
+        </div>
+        <div id="thanks">
+            <h2>Сообщение отправлено</h2>
+        </div>
+    </div>
+</div>
+
+<!-- Заглушка модального окна -->
+<div id="modal_form" class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <div id="form_container_modal">
+                <button id="modal_close_btn" class="close">x</button>
+                <img id="triangle" src="img/triangle.png">
+                <p id="triangle_text" >Данная функция находится в разработке.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно для отправки сообщения -->
+<!--<div id="modal_form" class="modal">-->
+<!--    <div class="modal_dialog">-->
+<!--        <div class="modal_content">-->
+<!--            <form id="form_container_modal">-->
+<!--                <button id="modal_close_btn" class="close">x</button>-->
+<!--                <div class="input_little_container">-->
+<!--                    <input id="modal_name"  type="text" class="input_little" name="name" placeholder="Имя">-->
+<!--                    <input id="modal_email" type="text" class="input_little" name="email"  placeholder="E-mail">-->
+<!--                </div>-->
+<!--                <textarea id="modal_message" maxlength="1500" class="input_big" name="message" placeholder="Сообщение"></textarea>-->
+<!--            </form>-->
+<!--            <button id="submit_btn_modal" class="orange_btn">ОТПРАВИТЬ</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!-- Модальное сообщение после отправки письма -->
+<div id="thanks_modal" class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <button id="modal_thanks_close_btn" class="close">x</button>
+            <h1>Сообщение отправлено</h1>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+<script src="message.js"></script>
+</body>
+</html>
