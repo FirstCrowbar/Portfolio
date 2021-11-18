@@ -1,0 +1,106 @@
+body{
+    background-image: url("img/wallpaper.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(224, 218, 177);
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    border-spacing: 0;
+    font-family: Arial;
+}
+th{
+    width: 150px;
+    background-color: orange;
+
+}
+td{
+    color: rgba(14, 14, 14, 0.9);
+    width: 150px;
+}
+form{
+    background-color: rgba(20, 20, 20, 0.95);
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    color: rgba(200, 200, 200, 0.90);
+}
+
+form h4 {
+    padding-top: 5px;
+    color: rgba(200, 200, 200, 0.9);
+}
+
+input{
+    margin: 3px;
+    height: 20px;
+    width: 380px;
+    border: 2px solid rgb(86, 86, 86);
+    color: rgba(200, 200, 200, 0.9);
+    background: none;
+}
+input:focus{
+    outline: none;
+    color: rgb(216, 216, 216);
+}
+
+#inputBtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+#errMsg{
+    color: orange;
+}
+
+.backToMain{
+    color: orange;
+}
+.backToMain:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=85);
+}
+.square {
+    width: 30px;
+    border-style: none;
+}
+.delete0{
+    display: none;
+}
+.delete{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    animation-duration: 0.35s;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.red{
+    color: white;
+    background-color: rgba(85, 5, 5, 0.64);
+    animation-name: fade;
+    animation-duration: 0.35s;
+}
+@keyframes fade {
+    from{background-color: rgba(0, 0, 0, 0.8);}
+    to{background-color: rgba(85, 5, 5, 0.64);}
+    from{opacity: 0.1;}
+    to{opacity: 1;}
+}
+

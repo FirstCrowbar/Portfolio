@@ -1,0 +1,354 @@
+
+menu{
+    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+    background-color: rgb(56, 56, 56);
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    margin-top: -10px;
+
+}
+
+h1 i{
+    color: orange;
+    margin-right: 10px;
+}
+
+/*_______________________________________________________________________________________*/
+#summary{
+    float: left;
+}
+#photo{
+    float: right;
+    width: 550px;
+    height: 333px;
+    margin-top: 30px;
+    background-image: url("img/photo.png");
+}
+#hello{
+    position: relative;
+    left: 10%;
+    bottom: 5px;
+    float: left;
+}
+#btns{
+    position: relative;
+    top: 20px;
+    right: 50px;
+    height: 60px;
+    width: 750px;
+    float: right;
+}
+#tab{                   /* контейнер со списком основного */
+    height: 120px;
+    padding-bottom: 8px;
+}
+#vk{
+    margin-left: -5px;
+}
+#skills_frontend{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+}
+#skills_design{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+}
+#skills_soft{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#exp{
+    height: 500px;
+}
+#education{
+    height: 650px;
+}
+#college{
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+}
+#book{
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+}
+#udemy{
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#master{
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+}
+#surveyor{
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+#form_container{
+    width: 700px;
+    height: 260px;
+    float: right;
+    margin-right: 30px;
+}
+#submit_btn{
+    float: right;
+    margin-right: 30px;
+}
+#form{
+    display: block;
+    width: 600px;
+    height: 250px;
+    float: right;
+    background-image: url("img/stamp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#submit_btn_modal{
+    position: relative;
+    left: 440px;
+    top: 150px;
+    float: right;
+    margin-right: 30px;
+}
+#thanks_modal{
+    text-align: center;
+}
+#thanks{
+    display: none;
+    text-align: center;
+}
+#triangle{
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#triangle_text{
+    text-align: center;
+}
+
+/*______________________________________________________________________________________*/
+.container{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    width: 1200px;
+    height: 380px;
+    /*border-bottom: 3px solid rgb(86, 86, 86);*/
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sub_container{
+    width: 700px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+}
+.social{
+    display: block;
+    margin-right: 14px;
+    margin-top: -4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    background: none;
+    font-size: 24px;
+    color: grey;
+}
+.social:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=85);}
+.span_title{
+    display: block;
+    width: 60px;
+    height: 15px;
+    float: left;
+    padding-right: 40px;
+}
+
+.orange_btn {
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+.grey_btn {
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+    outline: none;
+}
+
+.orange_block{
+    width: 5px;
+    height: 21px;
+    background-color: orange;
+    float: left;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.description{
+    width: auto;
+    height: auto;
+    float: left;
+}
+.input_little_container{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.input_little{
+    margin-top: 40px;
+    float: left;
+    width: 250px;
+    height: 30px;
+    border: 3px solid rgb(86, 86, 86);
+    color: rgb(186, 186, 186);
+    border-radius: 2px;
+    background: none;
+}
+.input_little:focus{
+    outline: none;
+    color: rgb(216, 216, 216);
+}
+.input_big{
+    margin-top: 40px;
+    float: right;
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(86, 86, 86);
+    color: rgb(186, 186, 186);
+    border-radius: 2px;
+    background: none;
+    vertical-align: text-top;
+    resize: none;
+}
+.input_big:focus{
+    outline: none;
+    color: rgb(216, 216, 216);
+}
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1050;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    overflow:hidden;
+}
+.modal_dialog{
+    max-width:700px;
+    margin:40px auto
+}
+.modal_content{
+    position: relative;
+    height: 350px;
+    width:100%;
+    padding:40px;
+    background-color: rgb(64, 64, 64);
+    opacity: 100%;
+    border-radius: 5px;
+}
+.close{
+    position: relative;
+    float: right;
+    right: -30px;
+    top: -30px;
+    margin-left: -20px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 2px;
+    color: rgb(160, 160, 160);
+    border: none;
+    font-size: 18px;
+}
+.app_container{
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+}
+.portfolio_btn{
+    width: 80px;
+    margin-top: 40px;
+}
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 0.35s;
+}
+@keyframes fade {
+    from{opacity: 0.1;}
+    to{opacity: 1;}
+}
+
+
+

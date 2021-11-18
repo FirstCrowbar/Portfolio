@@ -85,11 +85,11 @@ function formToArr() {
         rating: document.querySelector("#inputRating"),
     }
     if (form.name.value === "" || form.faculty.value === "" || form.year.value === "" || form.rating.value === "")  {
-        formContainer.style.backgroundColor = "red";
+        // formContainer.style.backgroundColor = "rgba(85, 5, 5, 0.9)";
         errMsg.innerText = "Заполните все поля!";
     } else {
         if (isNaN(form.year.value) || isNaN(form.rating.value)) {
-            formContainer.style.backgroundColor = "red";
+            // formContainer.style.backgroundColor = "rgba(85, 5, 5, 0.9)";
             errMsg.innerText = "Курс и рейтинг должны иметь числовое значение!";
             form.year.value = "";
             form.rating.value = "";
@@ -105,7 +105,7 @@ function formToArr() {
             form.year.value = "";
             form.rating.value = "";
             errMsg.innerText = "";
-            formContainer.style.backgroundColor = "rgba(200, 200, 200, 0.9)";
+            formContainer.style.backgroundColor = "rgba(20, 20, 20, 0.95)";
             newStudent(); //Обновление списка в таблице
             deleteStudent(); //Обновление селекторов для удаления
             // shiftRow(); //Обновление селекторов для выделения
