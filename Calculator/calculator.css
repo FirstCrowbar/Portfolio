@@ -1,0 +1,74 @@
+body {
+    background-image: url("img/wallpaper.gif");
+}
+h1 {
+    text-align: center;
+    color: orange;
+}
+span {
+    color: rgb(216, 216, 216);
+    font-family: Tahoma;
+    font-size: 14px;
+}
+input {
+    background-color: rgb(216, 216, 216);
+    border: none;
+    height: 20px;
+}
+input:focus {
+    outline: none;
+    background-color: rgba(249, 249, 249, 0.6);
+    font-weight: bold;
+    font-size: 14px;
+}
+#chart {
+    margin-top: 40px;
+    align-items: flex-end;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.calculating {
+    display: flex;
+    flex-direction: row;
+}
+.input-container {
+    align-items: start;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    width: 350px;
+    height: 600px;
+    /*border-bottom: 3px solid rgb(86, 86, 86);*/
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.center {
+    align-items: center;
+}
+.input_box {
+    height: 50px;
+}
+.input_box h4 {
+    margin-bottom: 0px;
+}
+.add_money {
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+.summaLocal {
+    margin-left: 20px;
+}
