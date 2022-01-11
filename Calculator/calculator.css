@@ -20,6 +20,7 @@ input:focus {
     background-color: rgba(249, 249, 249, 0.6);
     font-weight: bold;
     font-size: 14px;
+    width: 165px;
 }
 #chart {
     margin-top: 40px;
