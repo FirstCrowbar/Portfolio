@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pacman_ghosts</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/global.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/ghosts.css">
+    <link rel="stylesheet" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="dropdown">
+        <a id="pac"></a>
+        <div class="dropdown-content">
+            <a href="../../index.html">  Главная</a>
+            <a href="../../general/general.html"> О призраках</a>
+            <a href="blinky.html"><img class="icon" src="../../img/blinky.png">  "BLINKY"</a>
+            <a href="../pinky/pinky.html"><img class="icon" src="../../img/pinky.png">  "PINKY"</a>
+            <a href="../inky/inky.html"><img class="icon" src="../../img/inky.png">  "INKY"</a>
+            <a href="../clyde/clyde.html"><img class="icon" src="../../img/clyde.png">  "CLYDE"</a>
+            <a href="https://firstcrowbar.github.io/Portfolio/"><img src="../../img/port_img.png" height="14px">  "АВТОР САЙТА"</a>
+        </div>
+    </div>
+    <a href="../../index.html" id="logo"><img src="../../img/logo2.png"></a>
+    <form>
+        <input>
+        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+</header>
+
+<div id="content">
+    <div class="container">
+        <div class="description_head">
+            <img class="ghost_img" src="img/blinky.gif">
+            <h2>"BLINKY"</h2>
+        </div>
+        <div class="container_sub">
+            <p class="description">
+                Красное привидение начинает вне дома привидений и, обычно, его первого надо рассматривать как угрозу,
+                так как он прокладывает кратчайший путь к пакману почти моментально. Его зовут «Блинки» и игра описывает
+                его личность как «тень» (shadow). На Японском она описывается как oikake, что переводится как «преследователь»
+                или «охотник». Описание на обоих языках является точным, так как целевая клетка Блинки в режиме преследования
+                определяется текущей клеткой пэкмэна. Это означает, что Блинки почти всегда непосредственно преследует пэкмэна,
+                до тех пор, пока из-за недальновидного принятия решений он не выберет неэффективный путь.
+            </p>
+            <p class="description">
+                <img class="anim" src="img/blinky_preview.gif">
+                Хотя метод выбора цели Блинки очень прост, он имеет одну особенность, которой нет у других привидений –
+                в двух определенных координатах на каждом уровне (в зависимости от оставшихся точек) его скорость увеличивается
+                на 5% и поведение в режиме разбегания меняется. Срок изменения скорости варьируется в зависимости от уровня
+                и происходит все раньше и раньше с увеличением прогресса игрока. <br/>
+                Изменения в режиме разбегания, возможно, более значительны, чем изменение скорости, поскольку они являются
+                причиной того, что целевой клеткой Блинки теперь всегда является позиция пакмана, даже в режиме разбегания,
+                вместо фиксированной клетки в верхнем правом углу. Это фактически держит Блинки в режиме преследования постоянно,
+                хотя он вынужден будет развернуться при смене режима. В этом расширенном состоянии Блинки, как правило,
+                называют «Cruise Elroy», хотя происхождение этого термина, кажется, неизвестно. Даже великий всемогущий
+                гайд «Pac-Man Dossier» не дает нам ответа. Если пакман умирает, когда Блинки в режиме Cruise Elroy, он временно
+                возвращается к нормальному поведению, до тех пор, пока другие привидения не вышли из дома привидений.
+            </p>
+            <div style="clear: left"></div>
+            <section class="schemes">
+                <img class="lab" src="img/blinky_lab1.png">
+            </section>
+            <a href="../pinky/pinky.html"><button class="orange_btn">След.</button></a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> <span class="year">2022</span>
+        <a class="social" target="_blank" href="https://firstcrowbar.github.io/Portfolio/">Pavel Tykvenko <img src="../../img/port_img.png">
+        </a>
+    </p>
+
+</footer>
+</body>
+</html>

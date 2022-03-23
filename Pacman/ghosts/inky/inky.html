@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pacman_ghosts</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/global.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/ghosts.css">
+    <link rel="stylesheet" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="dropdown">
+        <a id="pac"></a>
+        <div class="dropdown-content">
+            <a href="../../index.html">  Главная</a>
+            <a href="../../general/general.html"> О призраках</a>
+            <a href="../blinky/blinky.html"><img class="icon" src="../../img/blinky.png">  "BLINKY"</a>
+            <a href="../pinky/pinky.html"><img class="icon" src="../../img/pinky.png">  "PINKY"</a>
+            <a href="inky.html"><img class="icon" src="../../img/inky.png">  "INKY"</a>
+            <a href="../clyde/clyde.html"><img class="icon" src="../../img/clyde.png">  "CLYDE"</a>
+            <a href="https://firstcrowbar.github.io/Portfolio/"><img src="../../img/port_img.png" height="14px">  "АВТОР САЙТА"</a>
+        </div>
+    </div>
+    <a href="../../index.html" id="logo"><img src="../../img/logo2.png"></a>
+    <form>
+        <input>
+        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+</header>
+
+<div id="content">
+    <div class="container">
+        <div class="description_head">
+            <img class="ghost_img" src="img/inky.gif">
+            <h2>"INKY"</h2>
+        </div>
+        <div class="container_sub">
+            <p class="description">
+                Привидение по имени Инки остается в домике на короткое время на первом уровне и не бросается в погоню, пока пакман не съест
+                как минимум 30 точек. На английском его описывают как «застенчивый», «робкий» (bashful), на японском «kimagure» — капризный,
+                причудливый. Поведение Инки сложно предсказать, потому что это единственный призрак, который использует в своей погоне не
+                только положение пакмана. Инки использует положение и направление как пакмана, так и Блинки (красного привидения).
+                Метод таргетинга Инки примерно таков: он выбирает клетку на две клетки перед пакманом (почти как Пинки), затем представьте
+                себе вектор от Блинки до этой точки и удвойте его. Конец вектора и будет целевя клетка Инки.
+            </p>
+            <p class="description">
+                <img class="anim" src="img/inky_preview.gif">
+                Таким образом цель Инки может быть где угодно, пока Блинки не близко с пакманом, но если Блинки удалось сблизиться,
+                Инки сделает то же самое. Заметьте, что его вычисление «двух клеток перед пакманом» страдает ровно той же ошибкой переполнения,
+                что и у Пинки, так что если пакман движется вверх, конец вектора из Блинки (до удвоения) будет на самом деле на две плитки
+                слева от пакмана.
+            </p>
+            <div style="clear: left"></div>
+            <section class="schemes">
+                <img class="lab" src="img/inky_lab1.png">
+            </section>
+            <a href="../clyde/clyde.html"><button class="orange_btn">След.</button></a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> <span class="year">2022</span>
+        <a class="social" target="_blank" href="https://firstcrowbar.github.io/Portfolio/">Pavel Tykvenko <img src="../../img/port_img.png">
+        </a>
+    </p>
+
+</footer>
+</body>
+</html>

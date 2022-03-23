@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pacman_ghosts</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/global.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/ghosts.css">
+    <link rel="stylesheet" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="dropdown">
+        <a id="pac"></a>
+        <div class="dropdown-content">
+            <a href="../../index.html">  Главная</a>
+            <a href="../../general/general.html"> О призраках</a>
+            <a href="../blinky/blinky.html"><img class="icon" src="../../img/blinky.png">  "BLINKY"</a>
+            <a href="pinky.html"><img class="icon" src="../../img/pinky.png">  "PINKY"</a>
+            <a href="../inky/inky.html"><img class="icon" src="../../img/inky.png">  "INKY"</a>
+            <a href="../clyde/clyde.html"><img class="icon" src="../../img/clyde.png">  "CLYDE"</a>
+            <a href="https://firstcrowbar.github.io/Portfolio/"><img src="../../img/port_img.png" height="14px">  "АВТОР САЙТА"</a>
+        </div>
+    </div>
+    <a href="../../index.html" id="logo"><img src="../../img/logo2.png"></a>
+    <form>
+        <input>
+        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+</header>
+
+<div id="content">
+    <div class="container">
+        <div class="description_head">
+            <img class="ghost_img" src="img/pinky.gif">
+            <h2>"PINKY"</h2>
+        </div>
+        <div class="container_sub">
+            <p class="description">
+                Розовое привидение начинает в доме привидений, но всегда выходит из него незамедлительно, даже на первом уровне.
+                Его имя «Пинки» и его личность описывается как «быстрый» (speedy). Это значительное отличие от Японского
+                описания личности — machibuse, которое переводится как «сидящий в засаде». Японская версия более соответствует
+                действительности, так как Пинки не двигается быстрее других привидений (даже медленней, чем Блинки в режиме Cruise Elroy),
+                а система поиска цели пытается переместить его туда, куда пакман направляется, а не там, где он сейчас. Целевая клетка Пинки
+                определяется в соответствии с текущей позицией и направлением пакмана и выбирает позицию на четыре клетки перед ним.
+                По крайней мере это был замысел и он работает, когда пакман направляется налево, вниз или вправо. Но когда пакман направляется
+                вверх, вследствие ошибки переполнения в коде, целевая клетка Пинки устанавливается на четыре клетки перед пакманом и на четыре
+                слева от него.
+            </p>
+            <p class="description">
+                <img class="anim" src="img/pinky_preview.gif">
+                Одно из важных последствий метода выбора цели Пинки то, что пакман часто мог выиграть у него в «куриной» игре
+                (на википедии приводится пример из голливуда, когда два водителя идут на таран и один из них в последний момент поворачивает.
+                — прим перев.).
+                Так как целевая клетка устанавливается на четыре клетки перед пакманом, если пакман направляется на него и они менее, чем
+                за 4 клетки друг от друга, целевая клетка Пинки находится за ним. Это приводит к тому, что Пинки идет в обход, чтобы добраться
+                до своей цели. Поэтому, это была общая стратегия моментального сбивания с толку Пинки, если он подбирался слишком близко.
+                Это часто посылало его в совершенно другую сторону.
+            </p>
+            <div style="clear: left"></div>
+            <section class="schemes">
+                <img class="lab" src="img/pinky_lab1.png">
+                <img class="lab" src="img/pinky_lab2.png">
+                <img class="lab" src="img/pinky_lab3.png">
+            </section>
+            <a href="../inky/inky.html"><button class="orange_btn">След.</button></a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> <span class="year">2022</span>
+        <a class="social" target="_blank" href="https://firstcrowbar.github.io/Portfolio/">Pavel Tykvenko <img src="../../img/port_img.png">
+        </a>
+    </p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pacman_ghosts</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/global.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/ghosts.css">
+    <link rel="stylesheet" href="../../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="dropdown">
+        <a id="pac"></a>
+        <div class="dropdown-content">
+            <a href="../../index.html">  Главная</a>
+            <a href="../../general/general.html"> О призраках</a>
+            <a href="../blinky/blinky.html"><img class="icon" src="../../img/blinky.png">  "BLINKY"</a>
+            <a href="../pinky/pinky.html"><img class="icon" src="../../img/pinky.png">  "PINKY"</a>
+            <a href="../inky/inky.html"><img class="icon" src="../../img/inky.png">  "INKY"</a>
+            <a href="clyde.html"><img class="icon" src="../../img/clyde.png">  "CLYDE"</a>
+            <a href="https://firstcrowbar.github.io/Portfolio/"><img src="../../img/port_img.png" height="14px">  "АВТОР САЙТА"</a>
+        </div>
+    </div>
+    <a href="../../index.html" id="logo"><img src="../../img/logo2.png"></a>
+    <form>
+        <input>
+        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+</header>
+
+<div id="content">
+    <div class="container">
+        <div class="description_head">
+            <img class="ghost_img" src="img/clyde.gif">
+            <h2>"CLYDE"</h2>
+        </div>
+        <div class="container_sub">
+            <p class="description">
+                Оранжевое привидение, «Клайд», последнее привидение, остающееся в доме дольше всех, и не выходящее, пока как минимум
+                треть точек не будет съедена. На английском его личность описывается как «тюремщик» (о_О — комментарий перев.) (pokey),
+                в то время как с японского это otoboke — «притворяться, что игнорируешь». Как обычно, японский вариант более точен, метод
+                таргетинга Клайда дает впечатление, что он просто «делает свое дело», не связанное с пакманом вообще. Уникальная фича
+                таргетинга Клайда — это два режима, которые переключаются в зависимости от его удаленности от пакмана. Каждый раз когда
+                Клайд должен вычислить свою целевую клетку, он сначала вычисляет расстояние до пакмана. Если оно больше 8 клеток, то он
+                действует как Блинки, то есть его целью является сам пэкмен. Однако как только его расстояние до пэкмена становится менее
+                восьми клеток, его целевая клетка устанавливается там же, где она была бы в режиме разбегания, неподалеку от левого нижнего
+                угла лабиринта.
+            </p>
+            <p class="description">
+                <img class="anim" src="img/clyde_preview.gif">
+                ТСочетание этих двух методов и дает то, что Клайд постоянно меняет направление: то к пэкмену, то в другом направлении.
+                На схеме выше крестиками отмечены места, где происходит переключение режимов. Так что если пакману каким-то образом удастся
+                остаться на своем месте, Клайд будет бесконечно крутиться по этой петле. До тех пор пока игрок не находится в левом нижнем
+                углу лабиринта, есть гарантия, что Клайда можно избежать, если вы не блокируете пути его отступления в свой угол. Пока пакман
+                находится в восьми клетках от левого нижнего угла, петля Клайда будет иметь ту же форму, какую имела бы в режиме разбегания.
+            </p>
+            <div style="clear: left"></div>
+            <section class="schemes">
+                <img class="lab" src="img/clyde_lab1.png">
+                <img class="lab" src="img/clyde_lab2.png">
+                <img class="lab" src="img/clyde_lab3.png">
+            </section>
+        </div>
+    </div>
+</div>
+<footer>
+    <p> <span class="year">2022</span>
+        <a class="social" target="_blank" href="https://firstcrowbar.github.io/Portfolio/">Pavel Tykvenko <img src="../../img/port_img.png">
+        </a>
+    </p>
+
+</footer>
+</body>
+</html>
