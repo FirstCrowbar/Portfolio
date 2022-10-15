@@ -55,6 +55,10 @@ input:focus{
 #output {
     position: relative;
 }
+#description {
+    position: relative;
+    width: 500px;
+}
 .innerDiv {
     position: relative;
 }

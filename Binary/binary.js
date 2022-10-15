@@ -48,11 +48,15 @@ function binarySearch(sortedArray, key) { //аргументы: отсортир
 form.addEventListener('submit', (event) => {
     //Фильтрация вводных данных
     if (isNaN(first.value) || isNaN(last.value) || isNaN(key.value)) {
-        alert("введите число");
+        alert("Введите число");
+    } else if (first.value.length === 0 || last.value.length === 0 || key.value.length === 0){
+        alert("Должны быть заполнены все поля");
+    } else if (first.value >= last.value) {
+        alert("Первое значение не должно быть больше либо равно второму");
     } else {
         event.preventDefault();
         arr = [];
-        for(let i = +first.value; i <= +last.value; i++) {
+        for(let i = +first.value; i < +last.value; i++) {
             arr.push(i);
         }
         binarySearch(arr, +key.value);
