@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56,56,56);
+}
+div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+}
+p, h4 {
+    font-family: Arial;
+    color: rgb(200, 200, 200);
+    margin-bottom: 10px;
+}
+input {
+    width: 200px;
+    font-size: 15px;
+    height: 20px;
+    border: 3px solid rgb(86, 86, 86);
+    color: rgb(150, 150, 150);
+    border-radius: 2px;
+    background: none;
+    margin-top: -30px;
+}
+
+input:focus{
+    outline: none;
+    color: rgb(216, 216, 216);
+}
+
+.orange_btn {
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+#input {
+    position: relative;
+}
+
+#output {
+    position: relative;
+}
+.innerDiv {
+    position: relative;
+}

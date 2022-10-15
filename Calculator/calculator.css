@@ -14,6 +14,7 @@ input {
     background-color: rgb(216, 216, 216);
     border: none;
     height: 20px;
+    width: 165px;
 }
 input:focus {
     outline: none;
