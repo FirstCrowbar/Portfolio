@@ -83,7 +83,7 @@ h1 i{
     height: 500px;
 }
 #education{
-    height: 650px;
+    height: 1050px;
 }
 #college{
     width: auto;
@@ -102,6 +102,15 @@ h1 i{
     border-bottom: 3px solid rgb(86, 86, 86);
 }
 #udemy{
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgb(86, 86, 86);
+}
+
+#kontur{
     width: auto;
     height: auto;
     margin-top: 60px;
